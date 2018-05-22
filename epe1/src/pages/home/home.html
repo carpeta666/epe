@@ -1,0 +1,38 @@
+<ion-header >
+  <ion-navbar >
+    <ion-title class="tituloP">
+      Talleres De Circo
+    </ion-title>
+  </ion-navbar>
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+</ion-header>
+
+<ion-content class="card-background-page">
+  <ion-list>
+    <ion-item  (tap)="ir()">
+      <ion-card>
+        <img src="assets/imgs/1.jpg"/>
+        <div class="card-title">Instructor</div>
+      </ion-card>
+    </ion-item>
+    <ion-item (tap)="ir1()">
+      <ion-card>
+        <img src="assets/imgs/2.jpg"/>
+        <div class="card-title">Videos De Interes</div>
+      </ion-card>
+    </ion-item>
+    <ion-item (tap)="ir2()">
+      <ion-card>
+        <img src="assets/imgs/3.jpg"/>
+        <div class="card-title">Practica En Casa</div>
+      </ion-card>
+    </ion-item>
+    <ion-item (tap)="ir3()">
+      <ion-card>
+        <img src="assets/imgs/4.jpg"/>
+        <div class="card-title">Los Talleres</div>
+      </ion-card>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
